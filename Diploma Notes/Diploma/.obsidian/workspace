@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "9a3a865b493555a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "65c8b0184a0e4606",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Research topics.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6f9cb7e28793d95",
+    "type": "split",
+    "children": [
+      {
+        "id": "9730cc43a969dea9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8ae5f0df08ad8b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c8e2efdbe16ba938",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "404d0e4edff7123d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e48a80f0c267824e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e00e8e0d51d816e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Research topics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "65c8b0184a0e4606",
+  "lastOpenFiles": [
+    "Research topics.md"
+  ]
+}

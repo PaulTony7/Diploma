@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "a5216b2374b62722",
+    "type": "split",
+    "children": [
+      {
+        "id": "d668cdee15df7f95",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Diploma/Research topics.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a180c337de2e1cbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ccdde11d338e455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d018194ac2beda6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6c62b3ea3206f36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e93fee497efbdb4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbb4694d547ca55d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "431d5330e724880e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diploma/Research topics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d668cdee15df7f95",
+  "lastOpenFiles": [
+    "Diploma/Research topics.md"
+  ]
+}
