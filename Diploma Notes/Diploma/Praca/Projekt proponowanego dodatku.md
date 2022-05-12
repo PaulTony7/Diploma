@@ -1,0 +1,1 @@
+# Projekt proponowanego dodatku
