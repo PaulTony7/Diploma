@@ -14,7 +14,9 @@ Parsing:
 	CYK:
 	- https://os.zhdk.cloud.switch.ch/tind-tmp-epfl/a26f37ef-85ba-4d68-8a62-55009055e5c9?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27ChappelierRajman98a.pdf&response-content-type=application%2Fpdf&AWSAccessKeyId=ded3589a13b4450889b2f728d54861a6&Expires=1651251494&Signature=ZzR4DQ4D8Kt4WWVfFJYLQ8HDN5c%3D
 	- https://www.sciencedirect.com/science/article/pii/S2352220814000601
-Text to 3D:
+	Text to 3D:
 	- https://nlp.stanford.edu/pubs/chang-acl2015-lexground.pdf
 	- https://github.com/miguelitoelgrande/BlenderSCAD 
+	Grammar engineering:
+	- https://pdfs.semanticscholar.org/8daa/af92956705221bcc6005438745545952ab02.pdf
 	
