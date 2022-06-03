@@ -23,6 +23,9 @@ Układ pracy prezentuje się następująco. W pierwszym rozdziale jest wstępem 
 
 # Opis narzędzi:
 ## Blender
+
 ## Blender API
+
 ## OpenSCAD język
+
 ## Python
