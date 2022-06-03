@@ -1,0 +1,1 @@
+# Alternatywne rozwiązania
