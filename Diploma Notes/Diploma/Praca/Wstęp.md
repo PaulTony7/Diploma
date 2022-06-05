@@ -23,9 +23,15 @@ Układ pracy prezentuje się następująco. W pierwszym rozdziale jest wstępem 
 
 # Opis narzędzi:
 ## Blender
-
+Pierwsza wersja Blendera została pierwotnie wydana w styczniu 1995 roku przez Holenderskie studio NeoGeo. Ostatnia stabilna wersja 3.1 została opublikowana 9 marca 2022 roku. Blender jest stale wspierane i rozwijane przez Blender Foundation. Na chwilę obecną zostały zapowiedziane 3 daty publikacji kolejnych wersji: 3.2 w Czerwcu, 3.3 z przedłużonym czasem wsparcia we wrześniu i 3.4 zapowiedziana na grudzień.
+Blender to wolne i otwarte oprogramowanie operujące w trójwymiarowej grafice komputerowej służące do pracy nad animacjami, specjalnymi efektami, trójwymiarowymi scenami, trójwymiarowymi modelami do druku.
+Blender jako program służący do pracy z środowiskiem trójwymiarowym został zaprojektowany w C/C++, co dzięki niskopoziomowej naturze tej grupy języków pozwala na zoptymalizowanie czasowe operacji matematycznych. Program został zintegrowany z Pythonem, w którym zostały wyodrębnione operacje wykorzystywane przez program. Dzięki takiej strukturze możliwe jest pisanie własnych modyfikacji dla funkcjonalności Blendera.
 ## Blender API
-
+Część Blendera napisana w pythonie i wspierająca dodawanie własnych modyfikacji została nazwana Blender API. Pozwala to na wykorzystywanie podstawowych operacji programu na cztery główne sposoby:
+- Utworzenie dodatku
+- Uruchomienie skryptu wraz z programem
+- Korzystanie z konsoli wewnątrz programu
+- Uruchamianie skryptów wewnątrz programu
 ## OpenSCAD język
 
 ## Python
