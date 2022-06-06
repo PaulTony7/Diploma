@@ -32,6 +32,20 @@ Część Blendera napisana w pythonie i wspierająca dodawanie własnych modyfi
 - Uruchomienie skryptu wraz z programem
 - Korzystanie z konsoli wewnątrz programu
 - Uruchamianie skryptów wewnątrz programu
+Z Api Blendera korzystamy importując moduł bpy. Moduł bpy dzieli się na 9 podmodułów. Sa to:
+ - context - dostęp do obszaru Blendera aktualnie użytkowanego
+ - data - dostęp do wszystkich danych
+ - msgbus - podmoduł wykorzystywany do otrzymywaniu powiadomień o wszystkich zmienionych właściwościach przez API
+ - ops - dostęp do operatorów, funkcję tutaj są często zmapowane do interfejsu użytkownika
+ - types - typy danych wykorzystywanych wewnątrz Blendera
+ - utils - dostęp do funkcji specyficznych dla Blendera, ale nie związanych z wewnętrznymi danymi Blendera
+ - path - podmoduł wspierający pracę na ścieżkach, Blenderowa implementacja os.path
+ - app - podmoduł zawierający dane niezmienne w trakcie działania programu takie jak wersja programu, ścieżka do programu, czy program został uruchomiony w tle itd.
+ - props - definiuje właściwości rozszerzające wewnętrzną strukturę danych Blendera
 ## OpenSCAD język
 
-## Python
+język skryptowy OpenSCAD to funkcyjny język programowania, służący do generowania dwu i trójwymiarowych modeli wykorzystywany w programie OpenSCAD. Struktura tego języka to lista wyrażeń. 
+Język składa się z komponentów:
+- objektów - podstawowy budulec dla scen trójwymiarowych. Tworzą go dwu i trójwymiarowe prymitywy
+- akcji - wyrażenia te zawierają w sobie tworzenie nowych modeli jak i przypisywanie wartości do zmiennych
+- operatorów - pozwalają na modyfikowanie właściwości objektów takich jak pozycja, rotacja, skala, kolor. nawiasy klamrowe '{}' pozwalają operatorom na działanie na więcej niż jednej akcji. 

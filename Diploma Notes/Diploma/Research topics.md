@@ -21,4 +21,5 @@ Parsing:
 	- https://github.com/miguelitoelgrande/BlenderSCAD 
 	Grammar engineering:
 	- https://pdfs.semanticscholar.org/8daa/af92956705221bcc6005438745545952ab02.pdf
-	
+	Blender
+	- https://archive.blender.org/wiki/index.php/Doc:DK/2.6/Manual/ - release dates
