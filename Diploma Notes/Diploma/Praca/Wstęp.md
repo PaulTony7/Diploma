@@ -49,3 +49,20 @@ Język składa się z komponentów:
 - objektów - podstawowy budulec dla scen trójwymiarowych. Tworzą go dwu i trójwymiarowe prymitywy
 - akcji - wyrażenia te zawierają w sobie tworzenie nowych modeli jak i przypisywanie wartości do zmiennych
 - operatorów - pozwalają na modyfikowanie właściwości objektów takich jak pozycja, rotacja, skala, kolor. nawiasy klamrowe '{}' pozwalają operatorom na działanie na więcej niż jednej akcji. 
+Przykładowy fragment kodu zostanie zaprezentowany w poniższym kodzie:
+``` scad
+sphere(3);
+y = 2;
+x = y * 3;
+translate([10,0,0]) color("blue") cube([y, x, y]);
+```
+W powyższym kodzie utworzona zostaje sfera o promieniu 3 jednostek, następnie przypisana zostaje wartość 2 do zmiennej y i do zmiennej x trzykrotność y, czyli 6. Ostatnie wyrażenie generuje niebieski prostopadłościan o wymiarach bazujących na wcześniej utworzonych zmiennych, a następnie przemieszczony jest za pomocą operatora translate o 10 jednostek na osi x. Warto zwrócić uwagę, że operacje mogą być wielokrotnie wykonane na tym samym objekcie.
+powyższy kod ma następującą strukturę:
+```scad
+action();
+action;
+action;
+operation() operation() action();
+```
+Operacje poprzedzają akcje, na których są wykonywane. 
+Trójwymiarowość kodu skryptowego OpenSCAD uzasadnia wsparcie wektorów wielowymiarowych. Wektory definiowane są za pomocą nawiasów prostokątnych '[]'', każdy z wymiarów przedzielony jest przecinkiem ','.
