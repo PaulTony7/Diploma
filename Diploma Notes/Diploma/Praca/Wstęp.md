@@ -1,17 +1,8 @@
 # Wstęp
+W świecie cyfrowym widoczne są wyraźne trendy kierujące całość technologii w kierunku trójwymiarowości. Wraz z pojawieniem się pierwszych konsumerskich kart graficznych w połowie lat 90tych, obszar ten z roku na rok rozwija się, obejmując coraz większą część naszej teraźniejszej rzeczywistości. Wraz z rozwojem technologii pojawiło się wiele programów, mających na celu przyspieszenie i ułatwienie procesu modelowania scen trójwymiarowych. Duża część z tych narzędzi jest zamkniętym oprogramowaniem, które oznaczone są licencjami ograniczającymi wolność użytkowników w użytkowaniu i dystrybucji swoich dzieł. W opozycji do tego istnieje szereg rozwiązań opartych na idei otwartego i wolnego oprogramowania, które mają dodatkowy benefit bycia darmowymi narzędziami. Pozwala to na dużo łatwiejszą decyzję dla przeciętnej osoby na podjęcia nauki tego narzędzia i zagłębienia się w rozwijanie technologii.
 
+Celem pracy jest ułatwienie dostępu do procesu tworzenia scen trójwymiarowych dla osoby, która ma wcześniejsze doświadczenie z programowaniem. Wiele programów do modelowania trójwymiarowego wyróżnia się mnogością okien, przycisków i opcji. W celu minimalizacji szoku związanego z takim przytłokiem bodźców efektem pracy będzie dodatek do otwartego oprogramowania Blender, umożliwiający generowanie scen trójwymiarowych na bazie kodu języka funkcyjnego OpenSCAD. Takie podejście umożliwia Krokowe wprowadzenie osób z programistycznym doświadczeniem do nowoczesnej technologii trójwymiarowej. Wykorzystanie w tym celu Blendera gwarantuje przystępność narzędzia, wolność w wykorzystywaniu go, dostęp do stale aktualizowanego i zgodnego ze standardami kodu źródłowego, a także szeroką bibliotekę zasobów intelektualnych zlokalizowanych w internecie.
 
+Spodziewanym rezultatem będzie dodatek do Blendera, łączący jego programowalny interface z językiem funkcyjnym, umożliwiającym generowanie scen trójwymiarowych na bazie kodu. Funkcjonalność dodatku będzie zapewniona o ile użytkownik będzie spełniał wymagania systemowe jak i będzie miał zainstalowane wymagane aplikacje wspierające.
 
-# Cel pracy
-Celem pracy jest stworzenie zintegorwanego dodatku w środowisku Blender, pozwalającego na generowanie scen 3D poprzez pisanie kodu o stylistyce programistycznej, z pominięciem etapu projektowania w domyślenie przeznaczonym do tego GUI. Struktura kodu programistycznego zaprojektowana w pracy jest wzorowana na języku skryptowym wykorzystywanym w środowisku OpenSCAD
-
-# Zakres pracy
-Zakresem pracy jest 
-- Analiza literatury
-- Przegląd konkurencyjnych rozwiązań
-- Opracowanie sposobu parsowania języka wzorowanego na języku skryptowym OpenSCAD
-- Integracja parsera z API wystawionym przez środowisko Blender jako dodatku
-- Testy dodatku
-
-# Układ pracy
 Układ pracy prezentuje się następująco. Pierwszy rozdział stanowi analizę literatury. Jest to przegląd aktualnych rozwiązań z dziedziny programowalnego konstruowania scen 3D ich wykorzystania w między innymi architekturze i drukowaniu trójwymiarowym. Omawia też alternatywne rozwiązania do implementowanego dodatku. Drugi rozdział przedstawia projekt proponowangeo dodatku. Przedstawia on wymagania funkcjonalne jak i niefunkcjonalne wobec niego. Opisane są w nim również narzędzie konieczne do jego implementacji na bazie czego ukazana będzie architektura dodatku. Trzeci rozdział opisuje implementację dodatku. Przedstawione są narzędzia wykorzystane w tym procesie, przytoczona jest analiza kodu, a także zamieszczona instrukcja instalacji jak i obsługi dodatku. 
