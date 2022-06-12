@@ -1,0 +1,2 @@
+# Practical Earley Parsing
+Algorytm parsowania Earley to generalny algorytm, który umożiwia parsowanie dowolnej bezkontekstowej gramatyki. Jednak zasady gramatyki, które posiadają pustą prawą stronę równania, wprowadzają komplikacje. Papier mówi o jednej prostej modyfikacji do predyktora, która eleminuję tę komplikację i przyspiesza czas wykonywania algorytmu.

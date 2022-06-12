@@ -1,0 +1,2 @@
+# A Generalized Earley Parser for Human Activity Parsing and Prediction 
+Rozszerzenie algorytmu Earleya o możliwość parsowania innych mediów takich jak filmy i obrazy, po wcześniejszym sklasyfikowaniu ich probabilystycznych kwalifikatorem.
