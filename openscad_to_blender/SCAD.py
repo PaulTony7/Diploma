@@ -181,10 +181,3 @@ def register():
 def unregister():
     bpy.utils.unregister_class(TEXT_OT_run_scad)
     bpy.types.TEXT_HT_header.remove(draw)
-
-# text = """x = [5,5,2];
-# y = 2;
-# x = x / y;
-
-# sphere(x) translate(x);"""
-# parse_openscad(text)

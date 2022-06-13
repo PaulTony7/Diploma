@@ -1,0 +1,2 @@
+# An Efficient context-free parsing algorithm
+Earley parser ma czas wykonywania n^3, a w przypadkach jednoznacznej gramatyki n^2. Dla każdego deterministycznej bezkontekstowej gramatyki czas wykonania jest liniowy.

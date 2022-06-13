@@ -1,0 +1,431 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      
+      <meta name="generator" content="Railroad Diagram Generator 1.63">
+      
+      <style type="text/css">
+    ::-moz-selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    ::selection
+    {
+      color: #FFFCF0;
+      background: #0F0C00;
+    }
+    .ebnf a, .grammar a
+    {
+      text-decoration: none;
+    }
+    .ebnf a:hover, .grammar a:hover
+    {
+      color: #050400;
+      text-decoration: underline;
+    }
+    .signature
+    {
+      color: #806600;
+      font-size: 11px;
+      text-align: right;
+    }
+    body
+    {
+      font: normal 12px Verdana, sans-serif;
+      color: #0F0C00;
+      background: #FFFCF0;
+    }
+    a:link, a:visited
+    {
+      color: #0F0C00;
+    }
+    a:link.signature, a:visited.signature
+    {
+      color: #806600;
+    }
+    a.button, #tabs li a
+    {
+      padding: 0.25em 0.5em;
+      border: 1px solid #806600;
+      background: #F1E8C6;
+      color: #806600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.button:hover, #tabs li a:hover
+    {
+      color: #050400;
+      background: #FFF6D1;
+      border-color: #050400;
+    }
+    #tabs
+    {
+      padding: 3px 10px;
+      margin-left: 0;
+      margin-top: 58px;
+      border-bottom: 1px solid #0F0C00;
+    }
+    #tabs li
+    {
+      list-style: none;
+      margin-left: 5px;
+      display: inline;
+    }
+    #tabs li a
+    {
+      border-bottom: 1px solid #0F0C00;
+    }
+    #tabs li a.active
+    {
+      color: #0F0C00;
+      background: #FFFCF0;
+      border-color: #0F0C00;
+      border-bottom: 1px solid #FFFCF0;
+      outline: none;
+    }
+    #divs div
+    {
+      display: none;
+      overflow:auto;
+    }
+    #divs div.active
+    {
+      display: block;
+    }
+    #text
+    {
+      border-color: #806600;
+      background: #FFFEFA;
+      color: #050400;
+    }
+    .small
+    {
+      vertical-align: top;
+      text-align: right;
+      font-size: 9px;
+      font-weight: normal;
+      line-height: 120%;
+    }
+    td.small
+    {
+      padding-top: 0px;
+    }
+    .hidden
+    {
+      visibility: hidden;
+    }
+    td:hover .hidden
+    {
+      visibility: visible;
+    }
+    div.download
+    {
+      display: none;
+      background: #FFFCF0;
+      position: absolute;
+      right: 34px;
+      top: 94px;
+      padding: 10px;
+      border: 1px dotted #0F0C00;
+    }
+    #divs div.ebnf, .ebnf code
+    {
+      display: block;
+      padding: 10px;
+      background: #FFF6D1;
+      width: 992px;
+    }
+    #divs div.grammar
+    {
+      display: block;
+      padding-left: 16px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      background: #FFF6D1;
+    }
+    pre
+    {
+      margin: 0px;
+    }
+    .ebnf div
+    {
+      padding-left: 13ch;
+      text-indent: -13ch;
+    }
+    .ebnf code, .grammar code, textarea, pre
+    {
+      font:12px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    }
+    tr.option-line td:first-child
+    {
+      text-align: right
+    }
+    tr.option-text td
+    {
+      padding-bottom: 10px
+    }
+    table.palette
+    {
+      border-top: 1px solid #050400;
+      border-right: 1px solid #050400;
+      margin-bottom: 4px
+    }
+    td.palette
+    {
+      border-bottom: 1px solid #050400;
+      border-left: 1px solid #050400;
+    }
+    a.palette
+    {
+      padding: 2px 3px 2px 10px;
+      text-decoration: none;
+    }
+    .palette
+    {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      -ms-user-select: none;
+    }
+  </style>
+   </head>
+   
+   <body>
+      
+      <p style="font-size: 14px; font-weight:bold"><a name="start">start:</a></p><img border="0" src="diagram/start.png" height="53" width="185" usemap="#start.map"><map name="start.map"><area shape="rect" coords="49,17,135,49" href="#instruction" title="instruction"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#start" title="start">start</a>&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#instruction" title="instruction">instruction</a>+</div></code></div>
+         </p>
+      
+      <p>no references</p><br><p style="font-size: 14px; font-weight:bold"><a name="instruction">instruction:</a></p><img border="0" src="diagram/instruction.png" height="181" width="633" usemap="#instruction.map"><map name="instruction.map"><area shape="rect" coords="69,35,127,67" href="#action" title="action"><area shape="rect" coords="137,101,223,133" href="#instruction" title="instruction"><area shape="rect" coords="311,101,385,133" href="#operator" title="operator"><area shape="rect" coords="445,1,519,33" href="#operator" title="operator"><area shape="rect" coords="49,145,141,177" href="#IDENTIFIER" title="IDENTIFIER"><area shape="rect" coords="211,145,301,177" href="#expression" title="expression"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#instruction" title="instruction">instruction</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= ( ( <a href="#action" title="action">action</a> | '{' <a href="#instruction" title="instruction">instruction</a>+ '}' <a href="#operator" title="operator">operator</a> ) <a href="#operator" title="operator">operator</a>* | <a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a> '=' <a href="#expression" title="expression">expression</a> ) ';'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#instruction" title="instruction">instruction</a></li>
+            
+            <li><a href="#start" title="start">start</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="action">action:</a></p><img border="0" src="diagram/action.png" height="169" width="369" usemap="#action.map"><map name="action.map"><area shape="rect" coords="29,1,95,33" href="#OBJECT" title="OBJECT"><area shape="rect" coords="181,1,255,33" href="#INTEGER" title="INTEGER"><area shape="rect" coords="181,45,239,77" href="#FLOAT" title="FLOAT"><area shape="rect" coords="181,89,239,121" href="#vector" title="vector"><area shape="rect" coords="181,133,273,165" href="#IDENTIFIER" title="IDENTIFIER"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#action" title="action">action</a>&nbsp;&nbsp;&nbsp;::= <a href="#OBJECT" title="OBJECT">OBJECT</a> '(' ( <a href="#INTEGER" title="INTEGER">INTEGER</a> | <a href="#FLOAT" title="FLOAT">FLOAT</a> | <a href="#vector" title="vector">vector</a> | <a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a> ) ')'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#instruction" title="instruction">instruction</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="operator">operator:</a></p><img border="0" src="diagram/operator.png" height="389" width="437" usemap="#operator.map"><map name="operator.map"><area shape="rect" coords="49,1,143,33" href="#TRANSFORM" title="TRANSFORM"><area shape="rect" coords="229,1,303,33" href="#INTEGER" title="INTEGER"><area shape="rect" coords="229,45,287,77" href="#FLOAT" title="FLOAT"><area shape="rect" coords="229,89,287,121" href="#vector" title="vector"><area shape="rect" coords="229,133,321,165" href="#IDENTIFIER" title="IDENTIFIER"><area shape="rect" coords="189,177,245,209" href="#string" title="string"><area shape="rect" coords="189,221,263,253" href="#INTEGER" title="INTEGER"><area shape="rect" coords="189,265,247,297" href="#FLOAT" title="FLOAT"><area shape="rect" coords="189,309,247,341" href="#vector" title="vector"><area shape="rect" coords="189,353,281,385" href="#IDENTIFIER" title="IDENTIFIER"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#operator" title="operator">operator</a>&nbsp;::= ( <a href="#TRANSFORM" title="TRANSFORM">TRANSFORM</a> '(' ( <a href="#INTEGER" title="INTEGER">INTEGER</a> | <a href="#FLOAT" title="FLOAT">FLOAT</a> | <a href="#vector" title="vector">vector</a> | <a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a> ) | 'color' '(' ( <a href="#string" title="string">string</a> | <a href="#INTEGER" title="INTEGER">INTEGER</a> | <a href="#FLOAT" title="FLOAT">FLOAT</a> | <a href="#vector" title="vector">vector</a> | <a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a> ) ) ')'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#instruction" title="instruction">instruction</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="vector">vector:</a></p><img border="0" src="diagram/vector.png" height="97" width="483" usemap="#vector.map"><map name="vector.map"><area shape="rect" coords="95,17,169,49" href="#INTEGER" title="INTEGER"><area shape="rect" coords="95,61,153,93" href="#FLOAT" title="FLOAT"><area shape="rect" coords="293,17,367,49" href="#INTEGER" title="INTEGER"><area shape="rect" coords="293,61,351,93" href="#FLOAT" title="FLOAT"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#vector" title="vector">vector</a>&nbsp;&nbsp;&nbsp;::= '[' ( <a href="#INTEGER" title="INTEGER">INTEGER</a> | <a href="#FLOAT" title="FLOAT">FLOAT</a> ) ( ',' ( <a href="#INTEGER" title="INTEGER">INTEGER</a> | <a href="#FLOAT" title="FLOAT">FLOAT</a> ) )+ ']'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#action" title="action">action</a></li>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="expression">expression:</a></p><img border="0" src="diagram/expression.png" height="477" width="429" usemap="#expression.map"><map name="expression.map"><area shape="rect" coords="49,1,123,33" href="#INTEGER" title="INTEGER"><area shape="rect" coords="49,45,107,77" href="#FLOAT" title="FLOAT"><area shape="rect" coords="49,89,107,121" href="#vector" title="vector"><area shape="rect" coords="49,133,105,165" href="#string" title="string"><area shape="rect" coords="49,177,141,209" href="#IDENTIFIER" title="IDENTIFIER"><area shape="rect" coords="69,265,159,297" href="#expression" title="expression"><area shape="rect" coords="289,221,379,253" href="#expression" title="expression"><area shape="rect" coords="95,441,185,473" href="#expression" title="expression"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#expression" title="expression">expression</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#INTEGER" title="INTEGER">INTEGER</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#FLOAT" title="FLOAT">FLOAT</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#vector" title="vector">vector</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#string" title="string">string</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ( '-' | <a href="#expression" title="expression">expression</a> ( '+' | '-' | '*' | '/' ) ) <a href="#expression" title="expression">expression</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| '(' <a href="#expression" title="expression">expression</a> ')'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#instruction" title="instruction">instruction</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="OBJECT">OBJECT:</a></p><img border="0" src="diagram/OBJECT.png" height="213" width="173"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#OBJECT" title="OBJECT">OBJECT</a>&nbsp;&nbsp;&nbsp;::= 'cube'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'square'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'circle'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'sphere'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'cylinder'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#action" title="action">action</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="TRANSFORM">TRANSFORM:</a></p><img border="0" src="diagram/TRANSFORM.png" height="125" width="179"><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#TRANSFORM" title="TRANSFORM">TRANSFORM</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= 'translate'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'rotate'</div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 'scale'</div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="string">string:</a></p><img border="0" src="diagram/string.png" height="37" width="191" usemap="#string.map"><map name="string.map"><area shape="rect" coords="29,1,161,33" href="#ESCAPED_STRING" title="ESCAPED_STRING"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#string" title="string">string</a>&nbsp;&nbsp;&nbsp;::= <a href="#ESCAPED_STRING" title="ESCAPED_STRING">ESCAPED_STRING</a></div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="IDENTIFIER">IDENTIFIER:</a></p><img border="0" src="diagram/IDENTIFIER.png" height="37" width="93" usemap="#IDENTIFIER.map"><map name="IDENTIFIER.map"><area shape="rect" coords="29,1,63,33" href="#ID" title="ID"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#IDENTIFIER" title="IDENTIFIER">IDENTIFIER</a></div>
+               
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#ID" title="ID">ID</a></div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#action" title="action">action</a></li>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#instruction" title="instruction">instruction</a></li>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="INTEGER">INTEGER:</a></p><img border="0" src="diagram/INTEGER.png" height="37" width="99" usemap="#INTEGER.map"><map name="INTEGER.map"><area shape="rect" coords="29,1,69,33" href="#INT" title="INT"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#INTEGER" title="INTEGER">INTEGER</a>&nbsp;&nbsp;::= <a href="#INT" title="INT">INT</a></div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#action" title="action">action</a></li>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            
+            <li><a href="#vector" title="vector">vector</a></li>
+            </ul>
+         </p><br><p style="font-size: 14px; font-weight:bold"><a name="FLOAT">FLOAT:</a></p><img border="0" src="diagram/FLOAT.png" height="37" width="93" usemap="#FLOAT.map"><map name="FLOAT.map"><area shape="rect" coords="29,1,63,33" href="#FL" title="FL"></map><p>
+         
+         <div class="ebnf"><code>
+               
+               <div><a href="#FLOAT" title="FLOAT">FLOAT</a>&nbsp;&nbsp;&nbsp;&nbsp;::= <a href="#FL" title="FL">FL</a></div></code></div>
+         </p>
+      
+      <p>referenced by:
+         
+         <ul>
+            
+            <li><a href="#action" title="action">action</a></li>
+            
+            <li><a href="#expression" title="expression">expression</a></li>
+            
+            <li><a href="#operator" title="operator">operator</a></li>
+            
+            <li><a href="#vector" title="vector">vector</a></li>
+            </ul>
+         </p><br><hr>
+      
+      <p>
+         
+         <table border="0" class="signature">
+            
+            <tr>
+               
+               <td style="width: 100%">&nbsp;</td>
+               
+               <td valign="top">
+                  
+                  <nobr class="signature">... generated by <a name="Railroad-Diagram-Generator" class="signature" title="https://www.bottlecaps.de/rr/ui" href="https://www.bottlecaps.de/rr/ui" target="_blank">RR - Railroad Diagram Generator</a></nobr>
+                  </td>
+               
+               <td><a name="Railroad-Diagram-Generator" title="https://www.bottlecaps.de/rr/ui" href="https://www.bottlecaps.de/rr/ui" target="_blank"><img border="0" src="diagram/rr-1.63.png" height="16" width="16"></a></td>
+               </tr>
+            </table>
+         </p>
+      </body>
+   </html>

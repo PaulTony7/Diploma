@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Diploma/Praca/Wstęp.md",
+            "file": "Instalation and Usage.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diploma/Praca/Wstęp.md",
+                "file": "Instalation and Usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "d668cdee15df7f95",
   "lastOpenFiles": [
-    "Diploma/Praca/Wstęp.md",
-    "Diploma/Praca/Streszczenie - Abstract.md",
+    "Instalation and Usage.md",
     "Diploma/Praca/Alternatywne rozwiązania.md",
+    "Diploma/Research topics/Research topics.md",
+    "Diploma/Research topics/Parametric modeling for advanced architecture.md",
     "Diploma/Praca/Analiza literatury.md",
-    "Diploma/Praca/Opis implementacji.md",
-    "Diploma/Praca/Podsumowanie i wnioski.md",
+    "Diploma/Research topics/Earlay/An Efficient context-free parsing algorithm.md",
+    "Diploma/Research topics/Earlay/Practical Earlay Parsing.md",
     "Diploma/Praca/Projekt proponowanego dodatku.md",
     "Diploma/Praca/Słownik pojęć.md",
-    "Diploma/Praca/Spis Treści.md",
-    "Diploma/Research topics/Research topics.md"
+    "Diploma/Praca/Spis Treści.md"
   ]
 }
