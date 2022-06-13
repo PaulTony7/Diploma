@@ -9,8 +9,9 @@ Zbiory Earleya analizowane są w trzech krokach nazwanych Skaner, Predyktor i Ko
 #### Text to 3D
 Transformacja tekstu na scenę trójwymiarową to idea, która była już niejednokrotnie zgłębiana. Poza generacją scen programistycznie podejmowane są próby konwersji języka naturalnego na scenę trójwymiarową [[Text to 3D|2]]. Najnowsze badania są również realizowane przez Google i OpenAI do generowania obrazów dwuwymiarowych przez zaawansowane algorytmy sztucznej inteligencji. Projekty takie jak Imagen [[Imagen|3]] i DALL-E 2 [[DALL-E 2|4]] wyglądają bardzo obiecująco i dają niesamowite efekty w dziedzinie grafiki komputerowej.
 #### Parametric modeling
+Wraz z wprowadzeniem rachunków różniczkowych w 17-tym wieku pozwoliło na opisywanie i wyjaśnianie zaturanlych zjawisk za pomocą abstrakcji matematycznej. Wiele z tych fizyczynych fenomenów można reprodukować za pomocą kodu i wzorów matematycznych. Z pomocą paremetrycznego modelowania możliwe stało się odwzwierciedlenie naturalnie występujących zjawisk w architekturze budowlanej. Przez lata parametryczne podejście do architektury zyskiwało coraz większe znaczenie w tej dziedzinie i w obecnych czasach architekci polegają w pierwszej kolejności na programach pomagających im generować trójwymiarowe modele za pomocą parametrycznego modelowania. [[Parametric modeling for advanced architecture|6]]
+#### Druk 3D
 
-#### 3D printing
 
 ## Alternatywne rozwiązania
 Idea generowania scen trójwymiarowych za pomocą kodu nie jest nowa i była już wielokrotnie implementowana na różne sposoby. Poniżej zaprezentowane są i przeanalizowane przykłady takich rozwiązań 

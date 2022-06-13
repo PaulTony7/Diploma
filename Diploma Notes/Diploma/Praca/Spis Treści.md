@@ -1,4 +1,5 @@
 # Spis treści
+- [[Streszczenie - Abstract]]
 - [[Wstęp]]
 - [[Analiza literatury]]
 - [[Projekt proponowanego dodatku]]
