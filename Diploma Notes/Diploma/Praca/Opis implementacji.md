@@ -39,6 +39,30 @@ string : ESCAPED_STRING
 ```
 Powyższy kod przedstawia definicję gramatyki języka bazowanego na języku OpenSCAD. Definicja gramatyki została wykonana w EBNF (Extended Backus-Naur form)
 ![Start|300](file:///home/paul/diploma/Images/diagram/start.png)
-#### Instalacja
 
+![instruction.png](file:///home/paul/diploma/Images/diagram/instruction.png)
+
+![operator.png](file:///home/paul/diploma/Images/diagram/operator.png)
+
+![expression.png](file:///home/paul/diploma/Images/diagram/expression.png)
+
+![vector.png](file:///home/paul/diploma/Images/diagram/vector.png)
+
+![OBJECT.png](file:///home/paul/diploma/Images/diagram/OBJECT.png)
+ 
+![TRANSFORM.png](file:///home/paul/diploma/Images/diagram/TRANSFORM.png)
+
+#### Instalacja
+Aby zainstalować dodatek na systemie Linux należy uprzednio posiadać:
+- Git - w celu pobrania dodatku z platformy github
+- Blender w warsji 3.1.0
+- Python 3
+- Lark - moduł umożliwiający parsowanie tekstu
+Proces instalacji przebiega następując:
+1. W terminalu należy wybrać lokację docelową dla dodatku, a następnie wpisać komendę:
+``` sh
+git clone https://github.com/PaulTony7/openscad_to_blender.git
+```
+2. Uruchomić Blendera, a następnie przejść do Edit->Preferences->Add-Ons. Po otworzeniu menu z wyborem dodatków nacisnąć "Install", zlokalizować plik z pobranym dodatkiem i wybrać SCAD.py.
+3. W celu uruchomienia dodatku należy go zlokalizować wśród listy obecnie zainstalowanych dodatków, a następnie zaznaczyć opcję "Enable".
 #### Obsługa

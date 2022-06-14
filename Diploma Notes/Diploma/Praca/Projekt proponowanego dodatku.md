@@ -60,11 +60,12 @@ Operacje poprzedzają akcje, na których są wykonywane.
 Trójwymiarowość kodu skryptowego OpenSCAD uzasadnia wsparcie wektorów wielowymiarowych. Wektory definiowane są za pomocą nawiasów prostokątnych '[]'', każdy z wymiarów przedzielony jest przecinkiem ','.
 
 #### Dobór narzędzi 
-- Blender 3.1.0
-- Python 3.10
-- Lark 1.1.2
-- Visual Studio Code
-- Git
-- Github
+- Blender 3.1.0 - program do modelowania, renderowania i edytowania scen trójwymiarowych. Udostępnia Programowalny interfejs, który umożliwia dostęp do funkcji wykorzystywanych przez program.
+- Python 3.10 - wysokopoziomowy, interpretowany język programistyczny, wykorzystywany do integracji z Blenderem.
+- Lark 1.1.2 - moduł do Pythona, służący do parsowania tekstu za pomocą algorytmów Earleya i LALR(1). Zapis gramatyki obsługiwany przez Lark to EBNF.  
+- Visual Studio Code - IDE służące do napisania dodatku. Możliwe było rozszerzenie funkcjonalności edytora o integrację z API blendera.
+- Git - program do kontroli wersji.
+- Github - serwis hostujący kod źródłowy dodatku.
 
 #### Architektura 
+Architektura dodatku opiera się głównie na wykorzystaniu Blendera jako programu docelowego, który udostępnia API. Dostęp do API jest zrealizowany za pomocą modułu bpy w pythonie.
