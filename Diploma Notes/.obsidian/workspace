@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Diploma/Praca/Analiza literatury.md",
+            "file": "Diploma/Praca/Streszczenie - Abstract.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diploma/Praca/Analiza literatury.md",
+                "file": "Diploma/Praca/Streszczenie - Abstract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "d668cdee15df7f95",
   "lastOpenFiles": [
+    "Diploma/Praca/Streszczenie - Abstract.md",
     "Diploma/Praca/Analiza literatury.md",
     "Diploma/Praca/Opis implementacji.md",
     "Diploma/Praca/Podsumowanie i wnioski.md",
@@ -96,7 +97,6 @@
     "Diploma/Praca/Słownik pojęć.md",
     "Diploma/Praca/Spis Treści.md",
     "Diploma/Praca/Wstęp.md",
-    "Diploma/Praca/Streszczenie - Abstract.md",
     "Instalation and Usage.md",
     "Pasted image 20220613235608.png"
   ]
