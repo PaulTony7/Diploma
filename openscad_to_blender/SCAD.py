@@ -1,12 +1,12 @@
 bl_info = {
     "name": "Add-on SCAD",
-    "blender": (3, 0, 0),
+    "blender": (3, 2, 0),
     "category": "Interface",
     "author": "Paul Kokot",
     "location": "Text Editor -> Header",
     "version": (0, 0, 6)
 }
-
+help("modules")
 import bpy
 from lark import Lark, Tree, Token
 from numpy import array, ndarray
@@ -75,7 +75,7 @@ def color_implementation(t):
 def block_implementation(t):
     for cmd in t.children:
         run_instruction(cmd)
-
+bpy.context.selected_objects
 def assign_implementation(t):
     if type(t.children[1]) is Tree:
         res = expression_breakdown(t.children[1])

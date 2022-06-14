@@ -63,6 +63,19 @@ Proces instalacji przebiega następując:
 ``` sh
 git clone https://github.com/PaulTony7/openscad_to_blender.git
 ```
-2. Uruchomić Blendera, a następnie przejść do Edit->Preferences->Add-Ons. Po otworzeniu menu z wyborem dodatków nacisnąć "Install", zlokalizować plik z pobranym dodatkiem i wybrać SCAD.py.
-3. W celu uruchomienia dodatku należy go zlokalizować wśród listy obecnie zainstalowanych dodatków, a następnie zaznaczyć opcję "Enable".
+
+![[Pasted image 20220614155255.png]]
+
+![[Pasted image 20220614155203.png]]
+2. Uruchomić Blendera, a następnie przejść do Edit->Preferences->Add-Ons. Po otworzeniu menu z wyborem dodatków nacisnąć "Install", zlokalizować plik z pobranym dodatkiem i wybrać plik SCAD.py. 
+![[Pasted image 20220614155927.png]]
+![[Pasted image 20220614160009.png]]
+3. W celu uruchomienia dodatku należy go zlokalizować wśród listy obecnie zainstalowanych dodatków, a następnie zaznaczyć opcję "Enable". 
+   ![[Pasted image 20220614160030.png]]
+   ![[Pasted image 20220614160107.png]]
 #### Obsługa
+![[Pasted image 20220614160136.png]]
+
+![[Pasted image 20220614160805.png]]
+
+![[Pasted image 20220614160828.png]]
