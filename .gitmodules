@@ -1,1 +1,3 @@
-
+[submodule "openscad_to_blender"]
+	path = openscad_to_blender
+	url = https://github.com/PaulTony7/openscad_to_blender.git
