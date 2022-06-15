@@ -66,6 +66,3 @@ Trójwymiarowość kodu skryptowego OpenSCAD uzasadnia wsparcie wektorów wielow
 - Visual Studio Code - IDE służące do napisania dodatku. Możliwe było rozszerzenie funkcjonalności edytora o integrację z API blendera.
 - Git - program do kontroli wersji.
 - Github - serwis hostujący kod źródłowy dodatku.
-
-#### Architektura 
-Architektura dodatku opiera się głównie na wykorzystaniu Blendera jako programu docelowego, który udostępnia API. Dostęp do API jest zrealizowany za pomocą modułu bpy w pythonie.

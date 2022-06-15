@@ -12,7 +12,7 @@ Transformacja tekstu na scenę trójwymiarową to idea, która była już niejed
 Wraz z wprowadzeniem rachunków różniczkowych w 17-tym wieku pozwoliło na opisywanie i wyjaśnianie zaturanlych zjawisk za pomocą abstrakcji matematycznej. Wiele z tych fizyczynych fenomenów można reprodukować za pomocą kodu i wzorów matematycznych. Z pomocą paremetrycznego modelowania możliwe stało się odwzwierciedlenie naturalnie występujących zjawisk w architekturze budowlanej. Przez lata parametryczne podejście do architektury zyskiwało coraz większe znaczenie w tej dziedzinie i w obecnych czasach architekci polegają w pierwszej kolejności na programach pomagających im generować trójwymiarowe modele za pomocą parametrycznego modelowania. [[Parametric modeling for advanced architecture|6]]
 #### Druk 3D
 
-
+	
 ## Alternatywne rozwiązania
 Idea generowania scen trójwymiarowych za pomocą kodu nie jest nowa i była już wielokrotnie implementowana na różne sposoby. Poniżej zaprezentowane są i przeanalizowane przykłady takich rozwiązań 
 #### BlenderSCAD
