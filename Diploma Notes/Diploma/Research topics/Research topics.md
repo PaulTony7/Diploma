@@ -26,6 +26,8 @@ Parametric modeling
 - [[Parametric modeling for advanced architecture]] https://parametric-architecture.com/wp-content/uploads/2018/09/PARAMETRIC-MODELING-FOR-ADVANCED-ARCHITECTURE.pdf
 3D printing OpenSCAD
 - [[Free and Open Source 3-D Model Customizer for Websites to Democratize Design with OpenSCAD]] https://www.mdpi.com/2411-9660/1/1/5/pdf?version=1499997768
+- [[Use of 3D Parametric Models in the Automotive Component Design Process]]http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-f41da225-88f3-41b5-bac9-0785a4548129
+- [[A parametric modelling strategy for the numerical simulation of 3D concrete printing with complex geometries]] https://www-1sciencedirect-1com-1ozz97mtr0695.han.bg.pwr.edu.pl/science/article/pii/S2214860420311155?via%3Dihub
 2D Image based on deep language and AI
 - [[DALL-E 2]] https://arxiv.org/pdf/2204.06125.pdf - DALL-E 2
 - [[Imagen]] https://arxiv.org/pdf/2205.11487.pdf - IMAGEN
