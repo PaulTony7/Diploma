@@ -191,7 +191,8 @@ git clone https://github.com/PaulTony7/openscad_to_blender.git
 ![[Add-ons menu.png]]
 ![[Install SCAD.py.png]]
 3. W celu uruchomienia dodatku należy go zlokalizować wśród listy obecnie zainstalowanych dodatków, a następnie zaznaczyć opcję "Enable". 
-   ![[Pasted image 20220614160030.png]]
+![[Pasted image 20220615141953.png]]
+
    ![[Enable add-on.png]]
 #### Obsługa
 ![[Blender Scripting.png]]

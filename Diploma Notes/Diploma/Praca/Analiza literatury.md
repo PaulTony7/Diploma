@@ -13,6 +13,7 @@ Zbiory Earleya analizowane są w trzech krokach:
 ![[Earley Parser dla E -> E + E n.png]]
 #### Text to 3D
 Transformacja tekstu na scenę trójwymiarową to idea, która była już niejednokrotnie zgłębiana. Poza generacją scen programistycznie podejmowane są próby konwersji języka naturalnego na scenę trójwymiarową [[Text to 3D|2]]. Najnowsze badania są również realizowane przez Google i OpenAI do generowania obrazów dwuwymiarowych przez zaawansowane algorytmy sztucznej inteligencji. Projekty takie jak Imagen [[Imagen|3]] i DALL-E 2 [[DALL-E 2|4]] wyglądają bardzo obiecująco i dają niesamowite efekty w dziedzinie grafiki komputerowej.
+![[Imagen book.png]]
 #### Parametric modeling
 Wraz z wprowadzeniem rachunków różniczkowych w 17-tym wieku pozwoliło na opisywanie i wyjaśnianie zaturanlych zjawisk za pomocą abstrakcji matematycznej. Wiele z tych fizyczynych fenomenów można reprodukować za pomocą kodu i wzorów matematycznych. Z pomocą paremetrycznego modelowania możliwe stało się odwzwierciedlenie naturalnie występujących zjawisk w architekturze budowlanej. Przez lata parametryczne podejście do architektury zyskiwało coraz większe znaczenie w tej dziedzinie i w obecnych czasach architekci polegają w pierwszej kolejności na programach pomagających im generować trójwymiarowe modele za pomocą parametrycznego modelowania. [[Parametric modeling for advanced architecture|6]]
 Proces projektowania, rozwijania i produkcji samochodów został bardzo mocno wsparty przez technologie komputerowe już od lat 80tych. Filozofia CAD - Computer Aided Design (ang. komputerowo wsparte projektowanie) i CAM - Computer Aided Manufacutring (ang. komputerowo wsprarta produkcja)  stały się integralną częścią rynku motoryzacyjnego. Technologie te pozwoliły na skrócenie czasu cyklu innowacyjnego do 6-8 lat.[[Use of 3D Parametric Models in the Automotive Component Design Process|7]]
@@ -28,3 +29,9 @@ BlenderSCAD to dodatek do Blendera, który jest zamieszczony na publicznym repoz
 Dodatek ten jest efektem pracy jednej osoby i mimo bycia udostępnionym do modyfikacji szerszej społeczności straciło wsparcie przez oryginalnego autora w 2015 roku i nie zyskało szerszej popularności. Ostatnia wspierana wersja Blendera przez ten dodatek to 2.79, co czyni dodatek nie kompatybilny z nowszymi wersjami, gdyż od wersji 2.8 Blender otrzymał duże zmiany w API, czyniąc kompatybilność wsteczną niemożliwą. Z powodu stale rozwijającej się technologii kompatybilność z najnowszymi wersjami oprogramowania ma duże znaczenie dla jakości generowanych modeli i spójności z narzucanymi standardami.
 #### OpenSCAD
 OpenSCAD jest otwartym oprogramowaniem, które umożliwia korzystanie z funkcyjnego języka OpenSCAD w celu generowania scen trójwymiarowych. Program ten jest w stałym rozwoju i wciąż otrzymuje aktualizacje. Mimo kompletności języka i pełności implementacji funkcji przez niego zdefiniowanego nie jest on standardem w branży trójwymiarowej. W celach edukacyjnych lepiej jest skupić się na nauczeniu możliwie jak najmniejszej liczby aplikacji.
+![[Pasted image 20220615154453.png]]
+![[Pasted image 20220615154529.png]]
+![[Pasted image 20220615161121.png]]
+def register():
+	bpy.utils.register_class(TEXT_OT_run_scad)
+	![[Pasted image 20220615191522.png]]
